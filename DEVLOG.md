@@ -182,51 +182,54 @@ Redesign the portfolio experience by replacing the desktop folder layout with a 
 - Add smooth transitions between folders
 - Populate each folder with actual portfolio content
 - Polish responsiveness across different screen sizes
-```
+
 ## Day 5
 
 ### Objective
-Polish the folder stack experience before building the portfolio pages by improving navigation, component architecture, typography, and user interaction.
+Improve the overall user experience of the portfolio by refining folder interactions, implementing navigation between the folder stack and dedicated pages, and strengthening the project architecture before building the actual portfolio content.
 
 ### Completed
-- Created separate pages for:
+- Created dedicated pages for:
   - About
   - Projects
   - Resume
   - Skills
-- Added folder-based navigation using React state
-- Implemented folder click interactions
-- Added navigation between the Folder Stack and individual pages
-- Added a reusable Back button mechanism using `onBack`
-- Refactored `FolderLayer` into a cleaner reusable component
+- Implemented folder-based navigation using React state
+- Added click interactions to each folder
+- Implemented reusable back navigation using an `onBack` callback
+- Refactored the `FolderLayer` component to improve reusability
 - Added support for dynamic folder titles using props
-- Learned how to position titles independently for each folder
-- Experimented with different typography styles for folder labels
-- Installed and tested multiple font options for the folder interface
-- Improved folder positioning and spacing for better usability
-- Refined hover interactions and overall folder layout
+- Experimented with different typography options for folder labels
+- Installed and tested custom fonts using `@fontsource`
+- Selected Manrope as the folder title font
+- Refined folder positioning and spacing
+- Improved folder hover interactions
+- Cleaned up component structure by removing unused props and simplifying the codebase
+- Finalized the overall navigation flow between the Folder Stack and individual pages
 
 ### Learned
-- Passing callback functions (`onBack`) between components
-- Conditional page rendering with React state
-- Building reusable UI using props
-- Component refactoring and code cleanup
-- Managing navigation without React Router
-- Typography selection for UI design
-- Using custom fonts with `@fontsource`
-- Structuring a scalable page architecture
+- Passing callback functions between parent and child components
+- Managing page navigation using React state
+- Creating reusable components with configurable props
+- Refactoring components for cleaner architecture
+- Importing and using custom fonts with `@fontsource`
+- Choosing typography based on UI design rather than preference
+- Organizing project structure for scalability
+- Balancing UI polish with future development
 
 ### Challenges
-- Deciding between page navigation and folder expansion animations
-- Matching the typography to the portfolio aesthetic
-- Fine-tuning folder spacing and hover interactions
-- Understanding when to simplify component props
-- Balancing visual polish with future scalability
+- Deciding between folder expansion animations and page-based navigation
+- Finding typography that matched the portfolio aesthetic
+- Fine-tuning folder positioning and hover interactions
+- Simplifying component props while maintaining flexibility
+- Designing a navigation system that is both reusable and scalable
 
 ### Next Goal
 - Finalize folder typography and visual styling
-- Add smooth transitions between the Folder Stack and pages
-- Improve hover animations and shadows
-- Add responsive scaling for different screen sizes
-- Begin designing the About page layout after the folder stack feels polished
+- Improve folder shadows and hover animations
+- Add smooth transitions between the Folder Stack and portfolio pages
+- Improve responsiveness across different screen sizes
+- Begin designing the About page
+- Build the remaining portfolio pages with a consistent design system
+```
 
