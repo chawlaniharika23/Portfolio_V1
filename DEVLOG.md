@@ -231,5 +231,4 @@ Improve the overall user experience of the portfolio by refining folder interact
 - Improve responsiveness across different screen sizes
 - Begin designing the About page
 - Build the remaining portfolio pages with a consistent design system
-```
 
