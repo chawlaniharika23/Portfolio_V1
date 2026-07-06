@@ -183,5 +183,50 @@ Redesign the portfolio experience by replacing the desktop folder layout with a 
 - Populate each folder with actual portfolio content
 - Polish responsiveness across different screen sizes
 ```
+## Day 5
 
+### Objective
+Polish the folder stack experience before building the portfolio pages by improving navigation, component architecture, typography, and user interaction.
+
+### Completed
+- Created separate pages for:
+  - About
+  - Projects
+  - Resume
+  - Skills
+- Added folder-based navigation using React state
+- Implemented folder click interactions
+- Added navigation between the Folder Stack and individual pages
+- Added a reusable Back button mechanism using `onBack`
+- Refactored `FolderLayer` into a cleaner reusable component
+- Added support for dynamic folder titles using props
+- Learned how to position titles independently for each folder
+- Experimented with different typography styles for folder labels
+- Installed and tested multiple font options for the folder interface
+- Improved folder positioning and spacing for better usability
+- Refined hover interactions and overall folder layout
+
+### Learned
+- Passing callback functions (`onBack`) between components
+- Conditional page rendering with React state
+- Building reusable UI using props
+- Component refactoring and code cleanup
+- Managing navigation without React Router
+- Typography selection for UI design
+- Using custom fonts with `@fontsource`
+- Structuring a scalable page architecture
+
+### Challenges
+- Deciding between page navigation and folder expansion animations
+- Matching the typography to the portfolio aesthetic
+- Fine-tuning folder spacing and hover interactions
+- Understanding when to simplify component props
+- Balancing visual polish with future scalability
+
+### Next Goal
+- Finalize folder typography and visual styling
+- Add smooth transitions between the Folder Stack and pages
+- Improve hover animations and shadows
+- Add responsive scaling for different screen sizes
+- Begin designing the About page layout after the folder stack feels polished
 
