@@ -232,3 +232,65 @@ Improve the overall user experience of the portfolio by refining folder interact
 - Begin designing the About page
 - Build the remaining portfolio pages with a consistent design system
 
+## Day 6
+
+### Objective
+Enhance the macOS-inspired experience by improving the visual polish of the portfolio, introducing stage-specific wallpapers, and rebuilding the desktop interface with a more authentic menu bar and dock.
+
+### Completed
+- Added support for different wallpapers across portfolio stages
+- Updated the `Wallpaper` component to accept dynamic image props
+- Implemented a dedicated wallpaper for the Intro screen
+- Implemented a dedicated wallpaper for the Folder Stack screen
+- Added a subtle overlay to improve folder visibility on the new wallpaper
+- Built a reusable macOS-style `MenuBar` component
+- Added:
+  - Apple logo
+  - Finder
+  - File
+  - Edit
+  - View
+  - Go
+  - Window
+  - Help
+- Added Wi-Fi, Battery, and Live Time indicators
+- Built the initial macOS-style Dock component
+- Replaced placeholder icons with custom PNG dock icons
+- Selected the final dock applications:
+  - Finder
+  - Safari
+  - Mail
+  - VS Code
+  - GitHub
+  - Pages
+  - Trash
+- Improved the dock's glassmorphism styling
+- Refined dock spacing, sizing, blur, and shadows
+- Fixed React component import and runtime errors
+- Planned dock interactivity and tooltip architecture
+
+### Learned
+- Passing assets as component props
+- Building reusable UI components
+- Creating glassmorphism effects with Tailwind CSS
+- Structuring reusable navigation components
+- Using PNG assets instead of icon libraries for realistic UI
+- Debugging React import and export errors
+- Reading browser console errors using DevTools
+- Organizing UI assets for scalability
+
+### Challenges
+- Choosing wallpapers that complement different portfolio stages
+- Matching the appearance of the macOS menu bar
+- Finding consistent application icons for the dock
+- Understanding React runtime errors caused by incorrect imports
+- Balancing realism with custom portfolio branding
+- Achieving consistent sizing across different PNG icons
+
+### Next Goal
+- Add hover tooltips to dock icons
+- Implement dock icon functionality
+- Add macOS-style dock magnification
+- Improve folder hover shadows and animations
+- Replace the placeholder Back button with a polished macOS-inspired version
+- Continue refining the overall user experience before building the portfolio pages
