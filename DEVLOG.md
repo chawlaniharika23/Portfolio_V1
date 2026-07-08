@@ -294,3 +294,65 @@ Enhance the macOS-inspired experience by improving the visual polish of the port
 - Improve folder hover shadows and animations
 - Replace the placeholder Back button with a polished macOS-inspired version
 - Continue refining the overall user experience before building the portfolio pages
+
+## Day 7
+
+### Objective
+Enhance the overall portfolio experience by building the About page, improving navigation between portfolio sections, integrating functional dock interactions, and refining the visual design.
+
+### Completed
+- Designed and developed the complete About Me page
+- Created a scrapbook-inspired layout based on a custom Figma design
+- Built a layered Polaroid photo section using transparent PNG assets
+- Added sections for:
+  - Introduction
+  - Currently Working On
+  - Tech Stack
+  - Beyond Code
+  - Contact
+- Displayed the tech stack using official technology icons
+- Added hover tooltips for each technology icon
+- Made contact information interactive using:
+  - Phone (`tel:`)
+  - Email (`mailto:`)
+  - GitHub
+  - LinkedIn
+- Implemented a dedicated Resume page with an embedded PDF viewer
+- Added smooth fade transitions between portfolio pages using Framer Motion
+- Connected dock applications with functional actions:
+  - Finder
+  - Safari
+  - Mail
+  - VS Code
+  - GitHub
+  - Resume
+  - Trash
+- Added tooltip labels to dock icons
+- Implemented a Trash interaction with a shake animation
+- Fixed routing and navigation issues across portfolio pages
+- Refined spacing, typography, and overall page composition
+
+### Learned
+- Embedding PDF documents using iframes
+- Using browser URL schemes (`tel:` and `mailto:`)
+- Creating reusable hover tooltip components
+- Managing page transitions with Framer Motion
+- Structuring responsive layouts with CSS Grid
+- Layering multiple transparent assets to recreate physical paper effects
+- Debugging React state and navigation using browser DevTools
+- Improving UX by keeping navigation within a single-page application
+
+### Challenges
+- Correctly positioning the Polaroid frame, tape, and profile image
+- Organizing technology icons into a clean and balanced layout
+- Debugging navigation between folder pages
+- Making dock applications functional while maintaining a macOS-inspired experience
+- Balancing aesthetics with readability throughout the About page
+
+### Next Goal
+- Design the Projects page in Figma
+- Build the Projects page in React
+- Design the Skills & Certifications page
+- Add interactive project cards
+- Improve responsiveness across different screen sizes
+- Continue refining animations and visual polish
