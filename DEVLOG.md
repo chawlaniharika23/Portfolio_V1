@@ -356,3 +356,55 @@ Enhance the overall portfolio experience by building the About page, improving n
 - Add interactive project cards
 - Improve responsiveness across different screen sizes
 - Continue refining animations and visual polish
+
+## Day 8
+
+### Objective
+Design and develop the Skills & Certifications page by creating a clean, interactive, and scalable layout to showcase certifications, technical skills, and continuous learning while maintaining the portfolio's scrapbook-inspired design.
+
+### Completed
+- Designed the Skills & Certifications page layout in Figma.
+- Implemented the Skills page in React.
+- Added a large outlined heading matching the portfolio's visual style.
+- Built a reusable certification system using a separate `certificates.js` data file.
+- Displayed certifications dynamically using `.map()`.
+- Added detailed information for each certificate:
+  - Title
+  - Issuer
+  - Year
+  - Skills Learned
+- Integrated certificate preview images.
+- Implemented hover animations for certificate previews.
+- Added a **View Certificate** button for every certification.
+- Built a modal/lightbox to display certificates in full size without leaving the portfolio.
+- Added a close button and click-outside functionality for the certificate viewer.
+- Imported and organized multiple certificates:
+  - J.P. Morgan – Software Engineering Job Simulation
+  - Anthropic – AI Fluency: Framework & Foundations
+  - Anthropic – Claude Code 101
+  - Cisco – Introduction to Cybersecurity
+  - HP LIFE – AI for Beginners
+- Refined spacing, typography, and overall page hierarchy.
+- Structured the page for easy scalability, allowing future certificates to be added by updating only the data file.
+
+### Learned
+- Managing dynamic content using arrays and `.map()`.
+- Separating UI from data for better scalability.
+- Creating reusable card layouts.
+- Building image modals using React state.
+- Organizing assets for maintainable project structure.
+- Improving user experience with interactive previews and hover effects.
+
+### Challenges
+- Designing a layout that remains clean while accommodating multiple certificates.
+- Balancing certificate previews with descriptive content.
+- Managing image sizing and background scaling.
+- Ensuring the component remains reusable and easy to extend.
+- Maintaining consistency with the overall portfolio design language.
+
+### Next Goal
+- Design the Projects page in Figma.
+- Build interactive project cards.
+- Add project previews, GitHub links, and live demo buttons.
+- Implement project filtering and animations.
+- Continue improving responsiveness and visual polish across the portfolio.
