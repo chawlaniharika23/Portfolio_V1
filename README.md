@@ -30,14 +30,6 @@ An interactive macOS-inspired developer portfolio built using React, Vite, Tailw
 - GitHub and external links
 - Smooth page transitions
 
-## Current Projects
-
-### 1. DNA Campus Thrift
-A full-stack marketplace for students to buy and sell pre-loved clothing within their campus community.
-
-### 2. Portfolio V1
-An interactive personal portfolio designed with a desktop-inspired interface and custom animations.
-
 ## Upcoming Features
 
 - Additional project cards
