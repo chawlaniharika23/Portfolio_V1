@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
+
 function ProjectCard({ project }) {
   const [flipped, setFlipped] = useState(false);
 
@@ -179,7 +180,7 @@ function ProjectSection({ title, children }) {
       </h3>
 
       <div
-        className="text-[15px] leading-[1.7]"
+        className="text-[14px] leading-[1.7]"
         style={{
           fontFamily: "'Manrope', sans-serif",
         }}

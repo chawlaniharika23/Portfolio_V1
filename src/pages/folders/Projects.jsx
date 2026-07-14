@@ -58,8 +58,8 @@ function Projects({ onBack }) {
     mb-8
   "
                 style={{
-                  fontFamily: "'Manrope', sans-serif",
-                  fontWeight: 900,
+                  fontFamily: "'Fjalla One', sans-serif",
+                  fontWeight: 400,
                 }}
               >
                 {project.title}
