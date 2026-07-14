@@ -164,6 +164,26 @@ function ProjectCard({ project }) {
                             )}
                         </div>
                     </ScrapSection>
+
+                    {/* PROJECT STATUS */}
+
+                    <p
+                        className="
+    absolute
+    bottom-[12px]
+    right-[350px]
+    z-50
+    text-[12px]
+    text-white/70
+    tracking-wide
+  "
+                        style={{
+                            fontFamily: "'Manrope', sans-serif",
+                            fontWeight: 400,
+                        }}
+                    >
+                        Status: In Development
+                    </p>
                 </div>
             </motion.div>
         </div>
