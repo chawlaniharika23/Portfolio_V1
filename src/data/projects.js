@@ -1,32 +1,42 @@
 import dnaThrift from "../assets/projects/dna-thrift.png";
 
 export const projects = [
-  {
-    id: 1,
-    title: "DNA Thrift",
-    cover: dnaThrift,
+    {
+        id: 1,
+        title: "DNA Campus Thrift",
+        cover: dnaThrift,
 
-    about:
-      "An on-campus thrift platform for students to buy and sell pre-loved clothing within their college community.",
+        features: [
+            "Campus-only marketplace",
+            "Clothing listings",
+            "Image uploads",
+            "Search and filtering",
+            "Buyer-seller interaction",
+        ],
 
-    problem:
-      "Existing resale platforms are broad and lack a campus-focused experience for students.",
+        problem:
+            "Students lack a focused campus platform for buying and selling affordable pre-loved clothing.",
 
-    solution:
-      "A college-exclusive marketplace where students can list, discover, and connect over pre-loved clothing.",
+        solution:
+            "DNA Campus Thrift creates a college-exclusive marketplace where students can list and discover items.",
 
-    techStack:
-      "React • Tailwind CSS • Node.js • Express • MongoDB",
+        techStack: [
+            "React",
+            "Tailwind CSS",
+            "Node.js",
+            "Express",
+            "MongoDB",
+        ],
 
-    features:
-      "Clothing Listings • Image Uploads • Search & Filters • Buyer-Seller Interaction",
+        learnings: [
+            "Full-stack architecture",
+            "API design",
+            "Database modelling",
+            "Reusable React components",
+            "UI/UX prototyping",
+        ],
 
-    role:
-      "Full Stack Development • UI/UX Design",
-
-    status: "In Development",
-
-    github: "",
-    demo: "",
-  },
+        github: "https://github.com/chawlaniharika23",
+        demo: "",
+    },
 ];
