@@ -408,3 +408,56 @@ Design and develop the Skills & Certifications page by creating a clean, interac
 - Add project previews, GitHub links, and live demo buttons.
 - Implement project filtering and animations.
 - Continue improving responsiveness and visual polish across the portfolio.
+
+## Day 9
+
+### Topics Covered
+
+- Project architecture
+- Reusable project components
+- Card flip animations
+- Deployment
+
+### Progress
+
+- Built reusable ProjectCard component
+- Added DNA Campus Thrift project
+- Added Portfolio V1 project
+- Designed project page
+- Multiple UI iterations for project details
+- Connected GitHub repository
+- Fixed Vercel deployment issues
+- Successfully deployed Portfolio V1
+- Published first live portfolio
+
+### Lessons Learned
+
+- Building reusable components saves time.
+- GitHub and Vercel deployment workflow.
+- Linux deployment is case-sensitive for file paths.
+- Designing first in Figma speeds up development.
+- Iterative UI refinement produces better results.
+
+---
+
+## Current Status
+
+✅ Portfolio V1 is live.
+
+### Remaining Work
+
+- Additional project cards
+- Contact page
+- Mobile responsiveness
+- Final UI polish
+- Performance optimization
+
+---
+
+## Live Website
+
+https://portfolio-v1-mu-sable.vercel.app/
+
+## Repository
+
+https://github.com/chawlaniharika23/Portfolio_V1
